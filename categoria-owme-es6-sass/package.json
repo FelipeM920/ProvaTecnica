@@ -1,0 +1,13 @@
+{
+  "name": "categoria-owme-es6-sass",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "scss": "node-sass  app/assets/scss -o app/assets/styles"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "sass": "^1.24.4"
+  }
+}
