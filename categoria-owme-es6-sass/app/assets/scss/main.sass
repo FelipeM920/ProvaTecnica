@@ -1,4 +1,19 @@
-$background-color: #2b5b80
+$background-color: #fff
 
 body 
     background: $background-color
+
+.container
+    display: flex;
+
+.container > li
+    flex: 1;
+
+nav#navbar > ul :nth-child(-n+4) 
+  color: red;
+
+nav#navbar > ul :nth-child(5)
+ color: blue;
+
+nav#navbar > ul :nth-child(n+6)
+ color: green;
