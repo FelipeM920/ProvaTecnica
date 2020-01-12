@@ -8,6 +8,17 @@ main {
   width: 100%;
 }
 
+.container-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.container-products > li {
+  padding-right: 12px;
+}
+
 .main-nav{
   display: flex;
   padding: 30px 60px;
